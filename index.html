@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/logo_black.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Estância Willffer</title>
+</head>
+<body>
+  <div class="container-outside">
+  <div id="container" class="container">
+    <header>
+      <a href="#container"><img class="logo" src="./assets/logo.png" alt="logo" width="90px"></a>
+      <ul class="menu">
+        <li class="btn us"><a href="#container-2">Sobre nós</a></li>
+        <li class="btn images"><a href="./pag_imagens/index.html" target="_blank">Imagens</a></li>
+        <li class="btn localization"><a href="#container-3">Localização</a></li>
+        <li class="btn contact"><a href="#container-4">Contato</a></li>
+        <li class="btn churrascometro"><a href="./Churrascometro/index.html" target="_blank">Churrascômetro</a></li>
+      </ul>
+      <div class=" btn2 subscribe">Registre-se</div>
+    </header>
+
+    <div class="spotlight">
+      <div class="spot-top">Desa<span>pegue</span></div>
+      <div class="spot-description">Você merece tirar um tempo de folga juntamente com sua família. Temos tudo o que você precisa para um momento de paz e diversão. Venha-nos conhecer.</div>
+      <div class="btn2 contact-us"><a href="https://web.whatsapp.com/" target="_blank">Faça seu orçamento!</a></div>
+    </div>
+
+    <div  class="container-inside">
+      <div class="slider-top">Amplo Espaço</div>
+
+      <div class="slider-show" onmouseover="stopInterval()" onmouseout="restartInterval()">
+        <div class="arrows">
+          <div class="left-arrow arrow" onclick="goPrev()"><img src="./assets/arrow-left.png" alt="" width="10px"></div>
+          <div class="right-arrow arrow" onclick="goNext()"><img src="./assets/arrow-right.png" alt="" width="10px"></div>
+        </div>
+        <div class="slider-back">
+          <div class="slider-hidden slider-item item-inicio"><span></span></div>
+          <div class="slider-item item1" style="background-image: url(./assets/mini/amplo_espaco.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item2" style="background-image: url(./assets/mini/piscina.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item3" style="background-image: url(./assets/mini/churras.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item4" style="background-image: url(./assets/mini/wifi.png); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item5" style="background-image: url(./assets/mini/utensilios.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item6" style="background-image: url(./assets/mini/minicampo.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item7" style="background-image: url(./assets/mini/jogos.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item8" style="background-image: url(./assets/mini/comodos.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-item item9" style="background-image: url(./assets/mini/mais.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+          <div class="slider-hidden slider-item item-fim"><span></span></div>
+        </div>
+      </div>
+
+      <div class="slider-description">São xxxm² de área construída e xxxm² de área útil, entre casa, quiosques e campo. É muito espaco.</div>
+    </div>
+      
+    <div class="social-network">
+      <div class="facebook rs"><a href="https://www.facebook.com/willffer.willffer" target="_blank"><img width="30px" src="./assets/face.png" alt=""></a></div>
+      <div class="email rs"><a href="mailto:willian.samer@gmail.com" target="_blank"><img width="30px" src="./assets/email.png" alt=""></a></div>
+      <div class="zap rs"><a href="https://web.whatsapp.com/" target="_blank"><img width="30px" src="./assets/zap.png" alt=""></a></div>
+    </div>
+
+  </div>
+
+  <div id="container-2" class="container-2">
+    <div class="spotlight spotlight-2">
+      <div class="spot-top">Quem somos?</div>
+      <div class="spot-description">Aqui quem fala é o Paulo e a Wagna. Somos um casal residente na cidade de Votuporanga-SP, exatamente onde se encontra a Estância Willffer. Alugamos nossa estância nos finais de semana e feriados. Estamos sempre dispostos a oferecer sempre o melhor a vocês desde Dezembro de 2013. Entre em contato conosco para conhecer melhor esta maravilha.</div>
+    </div>
+
+    <div class="slider-us">
+      <div class="title-us">O que prezamos?</div>
+      <div class="slider-us-inside" onmouseover="stopIntervalUs()" onmouseout="restartIntervalUs()">
+        <div class="arrows-us">
+          <div class="left-arrow-us arrow-us" onclick="goPrevUs()"><img src="./assets/arrow-left.png" alt="" width="25px"></div>
+          <div class="right-arrow-us arrow-us" onclick="goNextUs()"><img src="./assets/arrow-right.png" alt="" width="25px"></div>
+        </div>
+        <div class="slider-us-back">
+          <div class="slider-us-item" style="background-image: url(./assets/higiene.png); background-repeat: no-repeat; background-position: center; background-size: cover;">Higiene</div>
+          <div class="slider-us-item" style="background-image: url(./assets/seguranca.png); background-repeat: no-repeat; background-position: center; background-size: cover;">Segurança</div>
+          <div class="slider-us-item" style="background-image: url(./assets/diversao.png); background-repeat: no-repeat; background-position: center; background-size: cover;">Diversão e Tranquilidade</div>
+        </div>
+      </div>
+      <div  class="description-us">É fundamental para qualquer chácara de aluguel. Aqui, todas as roupas de cama, sofá, e a área em geral são limpos e higienizados minuciosamente. Tudo para te dar tranquilidade e conforto.</div>
+    </div>
+  </div>
+
+  <div id="container-3" class="container-3">
+    <div class="spotlight spotlight-3">
+      <div class="spot-top3" style="margin-bottom: 10px;">Localização</div>
+      <div class="spot-description">
+        <div><span style="border-bottom: solid 1px white;">Votuporanga-SP</span>
+          - Estrada do Barreiro, 6879 - Zona Rural<br>
+          <span style="border-bottom: solid 1px white;">A 4km de Votuporanga</span>(sentido Votuporanga à Valentim Gentil - Estrada que passa ao lado do Brisas Motel)
+        </div>
+      </div>
+    </div>
+
+    <div class="mapa"><a href="https://www.google.com/maps/place/Est%C3%A2ncia+Willffer/@-20.3878441,-50.056408,13z/data=!4m5!3m4!1s0x9497e2b1f4b8aaa9:0x49d7a41a71bb18ed!8m2!3d-20.3774351!4d-50.0302297?hl=en" target="_blank"><img src="./assets/mapa.png" style="width: 600px; height: 400px;"></a>
+    </div>
+  </div>
+
+  <div id="container-4" class="container-4">
+    <div class="spotlight spotlight-4">
+      <div class="spot-top4" style="margin-bottom: 10px;">Contato</div>
+      <div class="spot-description">
+        <div>Entre em contato conosco. Faça seu orçamento e tire todas as suas dúvidas. Teremos a satisfação que te responder.</div>
+      </div>
+    </div>
+
+    <div class="description-contact">
+      <div class="tel"><a href="https://web.whatsapp.com/" target="_blank">17 981021388</a></div>
+      <div class="ws"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></div>
+      <div class="fb"><a href="https://www.facebook.com/willffer.willffer" target="_blank">Facebook</a></div>
+      <div class="mail"><a href="mailto:willian.samer@gmail.com" target="_blank">estanciawillffer@gmail.com</a></div>
+    </div>
+  </div>
+ 
+    <footer>
+      <div><img width="30px" src="./assets/logo.png" alt=""></div>
+      <div>&copy Todos os direitos reservados. 2021</div>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

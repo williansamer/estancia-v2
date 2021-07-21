@@ -1,0 +1,5 @@
+#fdda47 - amarelo ouro
+#ffbf40 - laranja do logo	-	rgb(255, 191, 64)
+#ac663e - marrom
+#3fc392 - bege
+#ce8f86 - bege escuro

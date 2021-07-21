@@ -1,0 +1,333 @@
+*{
+  font-size: 1.2rem;
+  font-family: "Noto Sans TC";
+  text-shadow: 2px 2px 5px black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#backsite{
+  margin: 10px 0 10px 0;
+  margin: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
+}
+
+#afixed{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#afixed img{
+  width: 25px;
+}
+
+/* ____________________________HEADER_________________________________ */
+
+header{
+  width: 100%;
+  margin: auto;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#capa{
+  padding: 8%;
+
+  background-image: url(../assets/piscina_capa.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#capa img{
+  width: 150px;
+  margin-top: -5%;
+  margin-left: auto;
+  float: left;
+}
+
+#capa p{
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+}
+
+/* ____________________________SECTION_________________________________ */
+
+section{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slider-arrow{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.arrows{
+  margin: 10px;
+  cursor: pointer;
+}
+
+.slider-back{
+  flex: 1;
+  display: flex;
+  width: calc(100vw * 20);
+  height: 100%;
+  transition: all ease 0.5s;
+}
+
+.slider-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: inherit;
+  color: aliceblue;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.slider-small{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 120px;
+}
+
+.slider-arrow-small{
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrows-small{
+  margin: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.slider-back-small{
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+  transition: all ease 0.5s;
+}
+
+.slider-item-small{
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: inherit;
+  width: 20vw;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________________________FOOTER___________________________________ */
+
+footer{
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* _______________________________SENDEMAIL__________________________________ */
+
+#sendemail{
+  text-align: right;
+  float: right;
+  padding-right: 10%;
+}
+
+#sendemail h2{
+  text-align: center;
+  font-size: 1.2em;
+  color:#ac663e;
+  margin-bottom: 8px;
+}
+
+#sendemail form{
+  text-align: center;
+}
+
+#sendemail form input[type="email"]{
+  border: none;
+  padding: 8px;
+}
+
+#sendemail form input[type="submit"]{
+  color:rgb(255, 190, 51);
+  background-color: #ac663e;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+}
+
+#final p{
+  margin: 0;
+  padding-right: 5px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* _______________________________BOXFINAL__________________________________ */
+
+#boxfinal{
+  max-width: 100%;
+  float: left;
+}
+
+#boxfinal li{
+  color: rgb(77, 77, 77);
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+#boxfinal li img{
+  width: 20px;
+  padding-right: 10px;
+}
+
+#boxfinal a{
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+
+#boxfinal a:visited{
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+
+/* _______________________________MEDIA QUERY__________________________________ */
+
+@media screen and (max-width:500px) {
+  
+  #tituloa{
+    float: none;
+    display: block;
+    width: 100%; 
+    margin: auto;
+  }
+  
+  #titulob{
+    float: none;
+    display: block;
+    width: 100%; 
+    margin: auto;
+  }
+  
+  
+  /* ____________________________backs_________________________________ */
+    
+  #backpool h2{
+    float:none;
+    margin: 0;
+  }
+
+  #backgrill h2{
+    float:none;
+    margin: 0;
+  }
+
+  #backhouse h2{
+    float:none;
+    margin: 0;
+  }
+
+  #backareagame h2{
+    float:none;
+    margin: 0;
+  }
+
+  #backfootball h2{
+    float:none;
+    margin: 0;
+  }
+
+  #backnature h2{
+    float:none;
+    margin: 0;
+  }
+
+/* _______________________________FINAL___________________________________ */
+
+#sendemail{
+  text-align: center;
+  float: none;
+  padding-right: 0;
+}
+
+#sendemail form input[type="submit"]{
+  margin-top: 10px;
+}
+
+#final p{
+font-size: 15px;
+}
+
+}
