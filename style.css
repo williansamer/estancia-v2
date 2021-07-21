@@ -305,6 +305,7 @@ transition: all ease-out 300ms;
   font-family: "Anton";
   letter-spacing: 2px;
   border-bottom: solid 2px white;
+  box-sizing: border-box;
 }
 .slider-us-inside{
   position: relative;
@@ -418,6 +419,8 @@ transition: all ease-out 300ms;
   box-shadow:  1px 1px 20px 8px black;
   cursor: pointer;
   margin-bottom: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
 
   transition: all ease-in-out 400ms;
 }
@@ -682,12 +685,68 @@ footer{
 }
 
 @media screen and (max-width: 547px) {
+  header{
+    margin-bottom: 20px;
+  }
+  .container-outside{
+    width: 100vw;
+  }
   .container{
     height: 880px;
   }
-
+  .subscribe{
+    margin-right: 0;
+  }
   .spotlight{
     margin-left: 18px;
     width: 450px;
+  }
+  .spot-top{
+    font-size: 3rem;
+  }
+  .spot-top span{
+    font-size: 3rem;
+  }
+  .spot-description{
+    text-align: justify;
+    width: 350px;
+  }
+  .social-network{
+    margin-left: 20px;
+  }
+  .slider-top{
+    margin-top: 30px;
+  }
+  .slider-description{
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+    height: 85px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-us{
+    margin-left: 5px;
+    width: 100%;
+  }
+ .slider-us-item{
+    margin-left: -20px;
+    width: 480px;
+    font-size: 150%;
+ }
+ .description-us{
+    padding: 10px;
+    height: 110px;
+}
+  .mapa{
+    width: 350px;
+    height: 200px;
+    margin-top: -80px;
+  }
+  .description-contact{
+    margin-top: -100px;
   }
 }

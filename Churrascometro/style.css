@@ -164,3 +164,11 @@ margin-bottom: 20px;
     transform: rotate(180deg);
   }
 }
+
+@media screen and (max-width:547px){
+  .box{
+    width: 100vw;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}

@@ -120,9 +120,6 @@ section{
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .slider-small{
   position: relative;
   display: flex;
@@ -170,20 +167,6 @@ section{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _______________________________FOOTER___________________________________ */
 
 footer{
@@ -194,140 +177,15 @@ footer{
   align-items: flex-end;
 }
 
-/* _______________________________SENDEMAIL__________________________________ */
-
-#sendemail{
-  text-align: right;
-  float: right;
-  padding-right: 10%;
-}
-
-#sendemail h2{
-  text-align: center;
-  font-size: 1.2em;
-  color:#ac663e;
-  margin-bottom: 8px;
-}
-
-#sendemail form{
-  text-align: center;
-}
-
-#sendemail form input[type="email"]{
-  border: none;
-  padding: 8px;
-}
-
-#sendemail form input[type="submit"]{
-  color:rgb(255, 190, 51);
-  background-color: #ac663e;
-  border: none;
-  padding: 8px;
-  font-weight: bold;
-}
-
-#final p{
-  margin: 0;
-  padding-right: 5px;
-  font-size: 20px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-/* _______________________________BOXFINAL__________________________________ */
-
-#boxfinal{
-  max-width: 100%;
-  float: left;
-}
-
-#boxfinal li{
-  color: rgb(77, 77, 77);
-  list-style: none;
-  padding-bottom: 3px;
-}
-
-#boxfinal li img{
-  width: 20px;
-  padding-right: 10px;
-}
-
-#boxfinal a{
-  text-decoration: none;
-  color: rgb(77, 77, 77);
-}
-
-#boxfinal a:visited{
-  text-decoration: none;
-  color: rgb(77, 77, 77);
-}
-
 /* _______________________________MEDIA QUERY__________________________________ */
 
-@media screen and (max-width:500px) {
-  
-  #tituloa{
-    float: none;
-    display: block;
-    width: 100%; 
-    margin: auto;
+@media screen and (max-width: 547px) {
+  #capa p{
+    font-size: 1.3rem;
   }
-  
-  #titulob{
-    float: none;
-    display: block;
-    width: 100%; 
-    margin: auto;
+  footer div{
+    font-size: 15px;
+    height: 25;
+    align-items: center;
   }
-  
-  
-  /* ____________________________backs_________________________________ */
-    
-  #backpool h2{
-    float:none;
-    margin: 0;
-  }
-
-  #backgrill h2{
-    float:none;
-    margin: 0;
-  }
-
-  #backhouse h2{
-    float:none;
-    margin: 0;
-  }
-
-  #backareagame h2{
-    float:none;
-    margin: 0;
-  }
-
-  #backfootball h2{
-    float:none;
-    margin: 0;
-  }
-
-  #backnature h2{
-    float:none;
-    margin: 0;
-  }
-
-/* _______________________________FINAL___________________________________ */
-
-#sendemail{
-  text-align: center;
-  float: none;
-  padding-right: 0;
-}
-
-#sendemail form input[type="submit"]{
-  margin-top: 10px;
-}
-
-#final p{
-font-size: 15px;
-}
-
 }
