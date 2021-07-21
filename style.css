@@ -684,9 +684,9 @@ footer{
   }
 }
 
-/* @media screen and (max-width: 547px) { */
+/* @media screen and (max-width: 411px) { */
 
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 547px) {
   header{
     margin-bottom: 20px;
   }
