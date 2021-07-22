@@ -14,7 +14,7 @@
   font-size: 1.1rem;
   text-shadow: 1px 1px 3px black;
   box-sizing:content-box;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 body{
