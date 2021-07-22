@@ -118,7 +118,8 @@ header{
   letter-spacing: 5px;
   font-size: 5rem;
   text-shadow: 2px 2px 5px black;
-  line-height: 100px;
+  line-height: 50px;
+  margin-bottom: 10px;
 }
 .spot-top span{
   font-family: "Anton";
@@ -709,6 +710,9 @@ footer{
   }
   .spot-top span{
     font-size: 3rem;
+  }
+  .spot-top3{
+    margin-bottom: 20px;
   }
   .spot-description{
     text-align: justify;
