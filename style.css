@@ -14,7 +14,7 @@
   font-size: 1.1rem;
   text-shadow: 1px 1px 3px black;
   box-sizing:content-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body{
@@ -704,7 +704,7 @@ footer{
   }
   .spotlight{
     margin-left: 18px;
-    width: 450px;
+    width: 90%;
   }
   .spot-top{
     font-size: 3rem;
@@ -714,7 +714,6 @@ footer{
   }
   .spot-description{
     text-align: justify;
-    width: 350px;
   }
   .social-network{
     margin-left: 20px;
@@ -723,14 +722,10 @@ footer{
     margin-top: 30px;
   }
   .slider-description{
-    padding: 0 30px 0 30px;
-    font-size: 15px;
+    padding: 0 0 0 60px;
     height: 85px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
   }
 
   .slider-us{
