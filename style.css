@@ -118,7 +118,7 @@ header{
   letter-spacing: 5px;
   font-size: 5rem;
   text-shadow: 2px 2px 5px black;
-  line-height: 50px;
+  line-height: 80px;
   margin-bottom: 10px;
 }
 .spot-top span{
@@ -707,6 +707,7 @@ footer{
   }
   .spot-top{
     font-size: 3rem;
+    line-height: 50px;
   }
   .spot-top span{
     font-size: 3rem;
