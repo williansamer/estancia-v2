@@ -1,1 +1,2 @@
-Feito um site de pesquisa de preços de combustíveis da cidade de Votuporanga.
+# estancia-v2
+Estância com melhoramentos
